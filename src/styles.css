@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(to left, rgba(228, 230, 243, 0.3), rgba(47, 48, 58, 0.4)),
+    url(./images/планета.jpg);
+}
+
+img {
+  display: inline-flex;
+  min-width: 50%;
+  height: auto;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+input {
+  padding: 10px 20px 10px 40px;
+
+  display: block;
+  border-radius: 30px;
+  outline: none;
+  border: 2px solid #eee;
+
+  font-size: 1rem;
+
+  background-image: url(./images/лупа.svg);
+  background-repeat: no-repeat;
+  background-position: 15px 15px;
+  width: 260px;
+  height: 50px;
+  text-align: center;
+  margin: 15px auto 0 auto;
+}
+
+.country-item {
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 3px 5px rgb(0 0 0 / 15%), 0px 3px 3px rgb(0 0 0 / 18%),
+    0px 5px 4px rgb(0 0 0 / 40%);
+  border: 2px solid rgb(74, 74, 75);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.container {
+  margin: 0;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.country-title {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.country-container {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.country-info {
+  width: 50%;
+}
